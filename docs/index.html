@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>모니터 프렌즈 다운로드</title>
+    <meta name="description" content="회사 모니터 위에 사는 친구. 1초마다 오르는 오늘 일당, 퇴근 카운트다운, 루팡·똥값 기록, 창 점령·칼퇴 시위 장난까지 (맥/윈도우 무료)" />
+    <meta property="og:title" content="🖥️ 모니터 프렌즈" />
+    <meta property="og:description" content="내 모니터 위에 사는 친구가 오늘 번 돈·퇴근까지 남은 시간을 알려 주고 같이 놀아 줘요" />
+    <meta property="og:image" content="https://kanchoooo.github.io/monitor-friends/img/hero.png" />
+    <link rel="icon" href="img/icon.png" />
+    <style>
+      /* 다운로드 링크: GitHub Releases 의 latest/download 는 주소가 고정이라 새 버전이 나와도 그대로 */
+      :root { --bg: #fbf5ea; --dot: #f1e6d3; --panel: #fff; --line: #eadfce; --text: #2f261d; --sub: #8a7764; --accent: #ff9f43; --ink: #3b2f25; }
+      * { box-sizing: border-box; }
+      body { margin: 0; font-family: -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif; color: var(--text);
+        background: var(--bg) radial-gradient(var(--dot) 1.2px, transparent 1.2px) 0 0 / 10px 10px; min-height: 100vh; }
+      .wrap { max-width: 760px; margin: 0 auto; padding: 40px 16px 60px; }
+      header { text-align: center; }
+      header img { width: 112px; height: 112px; }
+      h1 { font-size: 34px; margin: 6px 0 4px; letter-spacing: -0.5px; }
+      .lead { color: var(--sub); font-size: 16px; line-height: 1.6; margin: 0 0 24px; }
+      .dl { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 18px 0 8px; }
+      .dl a { display: inline-flex; flex-direction: column; align-items: center; min-width: 210px; text-decoration: none; color: var(--ink); background: #fff;
+        border: 2.5px solid var(--ink); border-radius: 16px; padding: 12px 18px; font-weight: 900; font-size: 17px; box-shadow: 0 4px 0 var(--ink); }
+      .dl a small { font-weight: 600; font-size: 12px; color: var(--sub); margin-top: 2px; }
+      .dl a.rec { background: var(--accent); color: #fff; }
+      .dl a.rec small { color: #fff3e3; }
+      .dl a:active { transform: translateY(2px); box-shadow: 0 2px 0 var(--ink); }
+      .note { text-align: center; color: var(--sub); font-size: 13px; line-height: 1.6; }
+      .shot { width: 100%; border-radius: 16px; border: 2.5px solid var(--ink); margin: 26px 0 8px; display: block; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; margin-top: 20px; }
+      .card { background: var(--panel); border: 2px solid var(--line); border-radius: 16px; padding: 14px; }
+      .card b { display: block; font-size: 15px; margin-bottom: 4px; }
+      .card span { color: var(--sub); font-size: 13.5px; line-height: 1.55; }
+      footer { text-align: center; margin-top: 34px; color: var(--sub); font-size: 13px; }
+      footer a { color: var(--ink); font-weight: 800; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <img src="img/icon.png" alt="" />
+        <h1>모니터 프렌즈</h1>
+        <p class="lead">회사 모니터 위에 사는 친구가<br />1초마다 오르는 <b>오늘 일당</b>, <b>퇴근까지 남은 시간</b>을 알려 주고 같이 놀아 줘요</p>
+      </header>
+      <div class="dl">
+        <a id="win" href="https://github.com/kanchoooo/monitor-friends/releases/latest/download/MonitorFriends-Setup.exe">윈도우용 받기<small>Windows 10 / 11</small></a>
+        <a id="mac" href="https://github.com/kanchoooo/monitor-friends/releases/latest/download/MonitorFriends-mac.dmg">맥용 받기<small>macOS 13 이상 · 애플 실리콘 · 인텔</small></a>
+      </div>
+      <p class="note">무료 · 윈도우에서 "Windows의 PC 보호" 창이 뜨면 <b>추가 정보 → 실행</b><br />설치하면 새 버전이 나올 때 저절로 업데이트돼요</p>
+      <img class="shot" src="img/hero.png" alt="모니터 위의 캐릭터들이 창을 점령한 모습" />
+      <div class="grid">
+        <div class="card"><b>💰 실시간 일당</b><span>연봉·근무 시간을 넣으면 머리 위에서 1초마다 돈이 올라요. 커피·치킨 환산, 월급날·주말 D-day까지</span></div>
+        <div class="card"><b>🕶 루팡 · 💩 똥값</b><span>자리 비운 동안·화장실에서 번 돈을 따로 세어 줘요. 퇴근하면 루팡 영수증</span></div>
+        <div class="card"><b>🏴 장난</b><span>분신술 · 창 점령 · 칼퇴 시위 행진 · 부장님 온다! · 창 위에서 낚시 · 커서에 매달리기</span></div>
+        <div class="card"><b>✨ 내 캐릭터로</b><span>좋아하는 캐릭터 그림 + ChatGPT 로 나만의 친구를 만들어 여러 마리 같이 띄워요</span></div>
+        <div class="card"><b>📂 파일 도우미</b><span>캐릭터에게 파일을 끌어다 주면 형식 변환·용량 줄이기·PDF·GIF·압축 — 휴지통은 냠냠</span></div>
+        <div class="card"><b>🌐 몰래 인터넷</b><span>단축키 한 번에 인터넷 창만 쏙 숨고 소리도 꺼져요</span></div>
+      </div>
+      <footer>새로 나온 재밌는 앱은 인스타 <a href="https://www.instagram.com/easyticket.co.kr/">@easyticket.co.kr</a> 에서 먼저 · <a href="https://easyticket.co.kr/apps/">다른 앱 보기</a></footer>
+    </div>
+    <script>
+      // 지금 컴퓨터에 맞는 버튼을 앞으로
+      var mac = /Mac/i.test(navigator.platform || navigator.userAgent)
+      var a = document.getElementById(mac ? 'mac' : 'win')
+      a.classList.add('rec')
+      a.parentNode.insertBefore(a, a.parentNode.firstChild)
+    </script>
+  </body>
+</html>

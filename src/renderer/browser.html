@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>모니터 프렌즈 인터넷</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:" />
+  </head>
+  <body>
+    <div id="bar">
+      <div class="lights"></div>
+      <button id="back" title="뒤로">‹</button>
+      <button id="fwd" title="앞으로">›</button>
+      <button id="reload" title="새로고침">↻</button>
+      <button id="home" title="처음 화면">⌂</button>
+      <form id="f"><input id="url" spellcheck="false" autocomplete="off" placeholder="주소나 검색어" /></form>
+      <button id="ontop" title="항상 위에">📌</button>
+      <label class="op" title="투명도"><span>◐</span><input id="op" type="range" min="30" max="100" step="5" /></label>
+      <button id="hide" class="hide" title="숨기기">🙈 숨기기 <kbd id="key"></kbd></button>
+    </div>
+    <script type="module" src="/src/browser/main.ts"></script>
+  </body>
+</html>
